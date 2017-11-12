@@ -1,0 +1,3 @@
+[submodule "themes/amp"]
+	path = themes/amp
+	url = https://github.com/pdevty/amp.git
