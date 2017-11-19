@@ -1,6 +1,3 @@
-[submodule "themes/amp"]
-	path = themes/amp
-	url = https://github.com/pdevty/amp.git
 [submodule "public"]
 	path = public
 	url = git@github.com:persol-pt/persol-pt.github.io.git
