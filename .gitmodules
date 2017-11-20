@@ -2,3 +2,9 @@
 	path = public
 	url = git@github.com:persol-pt/persol-pt.github.io.git
 	branch = master
+[submodule "themes/ppt"]
+	path = themes/ppt
+	url = git@github.com:persol-pt/hugo-theme-ppt.git
+[submodule "themes/gohugo-amp"]
+	path = themes/gohugo-amp
+	url = git@github.com:persol-pt/gohugo-amp.git

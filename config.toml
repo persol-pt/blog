@@ -1,4 +1,7 @@
 baseURL = "https://persol-pt.github.io/"
 languageCode = "ja-jp"
 title = "PPT Developers' Blog"
-theme = "amp"
+theme = "ppt"
+
+[params]
+    googleanalytics = "UA-109901631-1"
