@@ -17,6 +17,8 @@ CDN 性能も、Firebase Hosting で使用されている Google Cloud CDN は C
 
 ### 比較表
 
+<div>
+
 |                | Firebase Hosting           | AWS                                                                |
 | -------------- | -------------------------- | ------------------------------------------------------------------ |
 | 構築           | 1 コマンド                 | S3 を作成。HTTPS や CDN を使うなら CloudFront を作成して S3 と結合 |
@@ -27,9 +29,7 @@ CDN 性能も、Firebase Hosting で使用されている Google Cloud CDN は C
 | 料金（ストア） | $0.025/GB                  | $0.025/GB                                                          |
 | 料金（転送）   | $0.15/GB                   | $0.085~0.250/GB                                                    |
 
-<br>
-アクセス制限が必要なければ、Firebase がとにかく楽です。
-<br><br><br><br>
+</div><p>アクセス制限が必要なければ、Firebase がとにかく楽です。 </p><br><br><br><br>
 
 ## 実際の手順を見てみましょう
 

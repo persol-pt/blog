@@ -13,7 +13,7 @@ WAF とは XSS や SQL インジェクションなどの HTTP 攻撃を防ぐた
 
 Cloud-based WAF では、リクエストが WAF を通るよう WAF サービスに DNS を向け、安全なリクエストのみオリジンへ通す、という方式をとります。
 
-私は WAF には疎くて、AWS WAF くらいしか知らなかったので、WAF ってのは自分で設定するものなんだろうなぁと思っていたんですが、調べてみたら WAF サービスって基本マネージドなんですね。
+私は WAF には疎くて、AWS WAF くらいしか知らなかったので、WAF ってのは自分で設定するものなんだろうなぁと思っていたんですが、調べてみたらマネージド WAF サービスって色々あるんですね。
 
 <br>
 
@@ -185,11 +185,11 @@ Cloud-based WAF では、リクエストが WAF を通るよう WAF サービス
 
 <br>
 
-Incapsula と Cloudflare は、機能が豊富で、かつ機能を絞って低価格な料金プランを選ぶこともでき、また HTTP/2 や WebSocket など色々な Web 技術対応する姿勢に魅力を感じました。
+Incapsula と Cloudflare は、機能が豊富で、かつ機能を絞って低価格な料金プランを選ぶこともでき、また HTTP/2 や WebSocket など色々な Web 技術に対応していたりと、オプションの豊富なサービスでした。
 
 <br>
 
-Incapsula に関しては登録するとすぐに CS から連絡が来て、セールスやエンジニアにすぐ聞いて答えてくれましたし、サポートにも力が入っているようです。
+また、Incapsula はサポートにも力が入っているようで、登録するとすぐに CS から連絡が来て、セールスやエンジニアにすぐ聞いて答えてくれました。
 
 <br>
 
@@ -197,7 +197,7 @@ Incapsula に関しては登録するとすぐに CS から連絡が来て、セ
 
 <br>
 
-Incapsula が Incapsula と他製品との詳細な機能比較表を作っていまして、こちらも参考になりました。
+Incapsula が他製品との詳細な機能比較表を作っていまして、こちらも参考になりました。
 
 [INCAPSULA COMPETITIVE LANDSCAPE](https://www.incapsula.com/incapsula-competitive-landscape.html)
 
