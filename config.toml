@@ -4,4 +4,5 @@ title = "PPT Developers' Blog"
 theme = "ppt"
 
 [params]
+    description = "パーソルプロセス＆テクノロジー 開発者ブログ"
     googleanalytics = "UA-109901631-1"

@@ -2,8 +2,10 @@
 title: "静的ファイルWebホスティングならS3よりFirebase Hosting"
 date: 2017-12-03T03:13:06+09:00
 tags: ["Firebase", "S3", "CloudFront"]
-categories: ["山本寛人"]
+categories: ["boiyaa"]
 ---
+
+<br>
 
 [Firebase Advent Calendar 2017](https://qiita.com/advent-calendar/2017/firebase) 3 日目の記事です。
 
