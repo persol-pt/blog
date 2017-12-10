@@ -2,8 +2,10 @@
 title: "Cloud-based WAF(Web Application Firewall) 比較"
 date: 2017-12-06T01:32:59+09:00
 tags: ["WAF", "Incapsula", "Silverline", "Akamai", "Cloudflare", "Sucuri", "Scutum", "AWS"]
-categories: ["山本寛人"]
+categories: ["boiyaa"]
 ---
+
+<br>
 
 [Security Advent Calendar 2017](https://qiita.com/advent-calendar/2017/security) 6 日目の記事です。
 
