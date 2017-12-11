@@ -1,9 +1,12 @@
 ---
 title: "Back_to_swift"
 date: 2017-12-11T15:43:02+09:00
+tags: ["swift"]
+categories: ["N.Yamamoto"]
 ---
 
-## 出戻りSwift
+## 出戻り Swift
+
 <br />
 先日、昔（個人事業主をしてた時に）作ったiOSアプリがストアから消えてるんですけど  
 というような連絡を受けました。  
