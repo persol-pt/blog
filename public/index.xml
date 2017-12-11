@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PPT Developers&#39; Blog</title>
+    <link>https://persol-pt.github.io/</link>
+    <description>Recent content on PPT Developers&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 11 Dec 2017 14:17:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://persol-pt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Back_to_swift</title>
+      <link>https://persol-pt.github.io/posts/back_to_swift/</link>
+      <pubDate>Mon, 11 Dec 2017 14:17:04 +0900</pubDate>
+      
+      <guid>https://persol-pt.github.io/posts/back_to_swift/</guid>
+      <description> 出戻りSwift 
+先日、昔（個人事業主をしてた時に）作ったiOSアプリがストアから消えてるんですけど
+というような連絡を受けました。
+何年も前に作りぱなしにしてたので、iOS11リリース頃に消されています。
+最近iOSアプリ開発をしていなかったので、この機会にSwiftでアプリを作ってみます。
+とりあえず、遊びで作った15パズルをSwiftで作り直します。
+昔の素材を引っ張り出すのが面倒なので、１からつくります。
+1.素材の準備 
+1〜15の数字が書かれた正方形の画像をサイズ違いで３枚毎。（270x270 / 180x180 / 90x90）
+2.Swiftの書き方を復習 
+Swift初心者なので、とりあえずオプショナル型の使い方をググる
+どこよりも分かりやすいSwiftの&amp;rdquo;?&amp;ldquo;と&amp;rdquo;!&amp;rdquo;
+ここがわかり易かったです。
+var / letの違い
+メソッドの書き方
+このくらいを調べる
+3.Xcodeでプロジェクト作成 
+Xcodeを開いてアプリ開発開始　XcodeからSingle View Appのプロジェクトで新規作成
+ストーリーボードを開いて、360x360のビューを配置
+その上に90x90のボタンを左上から15個並べる。(右下が1個分空く)
+作った素材（1〜15の画像）をプロジェクトに登録
+ボタンに画像を設定
+ボタンに画像を指定してもうまく読み込まれない？実機で動かすと画像が表示されない。
+Assetsに画像を登録してやるとうまく言ったので、それでよしとする。
+ボタンの動きを作成（押された時に空きスペースが上下左右にあれば移動）
+移動が終わったら全てのボタンが正しく並んでいるか判断。並んでいれば終了
+シャッフルボタンを作成して、並びをぐちゃぐちゃにする動きを追加
+タイマーを追加してシャッフルボタンが押されてから並びが正しくなるまで
+タイマー表示する機能を追加
+終わったらComplete画面を表示。ベストタイムを保持。
+だいたいこんな感じで動くものができました。 4.Swiftで作ってとまどったところ 
+オプショナル型のところ
+Viewアニメーションの書き方
+UIColorとか指定方法が変わった箇所
+5.アプリの申請 
+アプリの申請手順をかなり忘れていて、少し手こずりました。
+それはまた別の機会に。 </description>
+    </item>
+    
+    <item>
+      <title>社外発信はじめました</title>
+      <link>https://persol-pt.github.io/posts/start-publishing/</link>
+      <pubDate>Sun, 12 Nov 2017 16:13:55 +0900</pubDate>
+      
+      <guid>https://persol-pt.github.io/posts/start-publishing/</guid>
+      <description>&lt;p&gt;はじめまして、パーソルプロセス＆テクノロジー株式会社です。みんなPPTと略してます。レガシーなパワポですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
