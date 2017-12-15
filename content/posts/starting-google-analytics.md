@@ -1,13 +1,12 @@
 ---
 title: "[初心者向け]GoogleAnalytics を始める時に知っておいたほうが良いこと"
 date: 2017-12-15T00:00:00+09:00
-draft: true
 tags: ["ga", "Google Analytics"]
 categories: ["川崎 卓満"]
 ---
 
 ## この記事について
-Google Analytics Advent Calendar 2017[https://qiita.com/advent-calendar/2017/ga]16日目の記事です。
+[Google Analytics Advent Calendar 2017](https://qiita.com/advent-calendar/2017/ga) 16日目の記事です。
 <br>
 <br>
 <br>
