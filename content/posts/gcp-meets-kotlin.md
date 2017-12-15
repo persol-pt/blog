@@ -55,12 +55,12 @@ fun main(args: Array<String>) {
 
 * Datastoreへのアクセス
 
-Datastoreに接続するには「[Google Cloud Java Client](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-datastore)」と[appengine API](https://cloud.google.com/appengine/docs/standard/java/javadoc/)」があります。<br/>
-Standardの場合、「Google Cloud Java Client」だとローカル環境で実行した際に
+Datastoreに接続するには「[Google Cloud Java Client](https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-datastore)」か[appengine API](https://cloud.google.com/appengine/docs/standard/java/javadoc/)」があります。<br/>
+Standardの場合は「Google Cloud Java Client」を利用するとローカル環境で実行した際に
 ```
 Caused by: java.lang.IllegalStateException: Must use project ID as app ID if project ID is provided.
 ```
-と例外が出てしまい、ローカルのエミュレータに繋ぐことが出来ないのでappengine API」を使用しました。<br/>
+と例外が出てしまい、ローカルのエミュレータに繋ぐことが出来ないため「appengine API」を使用しました。<br/>
 （どちらを使用してもGAE上での動作は問題ありませんでした。ローカル環境での実行時にローカルDatastore（エミュレータ）に接続できるかどうかの差です）<br/>
 <br/>
 ### 設定ファイル
