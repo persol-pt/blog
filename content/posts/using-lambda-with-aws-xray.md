@@ -1,6 +1,6 @@
 ---
 title: "AWS X-Rayを使ってLambda内の処理をトレースしてみる"
-date: 2017-12-16T13:51:27+09:00
+date: 2017-12-17T17:51:27+09:00
 tags: ["AWS","Lambda","X-Ray","Node.js", "Javascript"]
 categories: ["ビトル"]
 ---
