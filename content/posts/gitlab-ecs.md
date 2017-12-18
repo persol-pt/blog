@@ -29,7 +29,7 @@ GitLab だけしか立てないなら ECS 上に構築するのはイマイチ�
 
 <br>
 
-先日 ECS インスタンスをフルマネージドしてくれる新サービス[AWS Fargate](https://aws.amazon.com/jp/fargate/)が発表されましたので、インスタンス周りの設定を大幅に削れそうなら ECS でもいいかもしれません。
+先日発表された、ECS インスタンスをフルマネージドしてくれる新サービス[AWS Fargate](https://aws.amazon.com/jp/fargate/)とか、最近 GCP を触るようになってすっかり惚れたので GKE とかに移行を検討しています。
 
 <br>
 
