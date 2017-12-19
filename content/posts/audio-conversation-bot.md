@@ -27,7 +27,7 @@ categories: ["藤井 大祐(daitasu)"]
 <br>
 <br>
 
-youtube
+[Dialogflow + VoiceTextで音声チャットボットを作ってみた(youtube)](https://www.youtube.com/watch?v=BhsJjVLctE8)
 
 <br>
 <br>
