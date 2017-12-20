@@ -1,7 +1,6 @@
 ---
 title: "Dialogflow + VoiceTextで音声会話Botをさくっと作ろう"
 date: 2017-12-14T00:19:21+09:00
-draft: true
 tags: ["Bot", "音声会話", "自然言語処理", "機械学習", "チャットボット"]
 categories: ["藤井 大祐(daitasu)"]
 ---
