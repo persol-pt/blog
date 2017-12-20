@@ -8,10 +8,10 @@ categories: ["藤井 大祐(daitasu)"]
 
 ## dialogflow + VoiceTextでさくっと音声会話botを作ろう<br>
 
-どうもこんにちは、daitasuです。<br>
+どうもこんにちは、藤井です。<br>
 今回は新卒ながら自分もAdvent Calenderの記事投稿に加わらせて頂きました。<br>
 <br>
-この記事は、新卒専用 Advent Calendar 2017  19日目の記事になります。<br>
+この記事は、[新卒専用 Advent Calendar 2017](https://qiita.com/advent-calendar/2017/fresh) 19日目の記事になります。<br>
 
 本記事では、dialogflowを用いて簡単にチャットボットを作り、そこにVoiceTextを足し合わせた音声会話Botの作り方をお伝えしたいと思います。<br>
 
