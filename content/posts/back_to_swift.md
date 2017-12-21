@@ -1,7 +1,7 @@
 ---
-title: "Back_to_swift"
+title: "久しぶりのiOSアプリ"
 date: 2017-12-11T15:43:02+09:00
-tags: ["swift"]
+tags: ["swift", "iOS"]
 categories: ["N.Yamamoto"]
 ---
 
