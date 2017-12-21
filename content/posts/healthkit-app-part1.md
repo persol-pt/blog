@@ -1,9 +1,8 @@
 ---
 title: "HealthKitアプリを作る（その１）"
-date: 2017-12-18T18:39:59+09:00
+date: 2017-12-21T17:43:55+09:00
 tags: ["iOS", "Swift", "HealthKit"]
 categories: ["N.Yamamoto"]
-draft: true
 ---
 
 Apple Watch Series3を買いました。  
