@@ -2,7 +2,7 @@
 title: "おじさんLINEごっこBOTを作ってみた"
 date: 2017-12-15T16:10:08+09:00
 tags: ["BOT", "ボット","LINE","Dialogflow", "AWS", "Lambda", "Serverless"]
-categories: ["長尾ビトル"]
+categories: ["ビトル"]
 ---
 
 かなり遅れてしまいましたが、今回は[ボット (Bot) Advent Calendar 2017](https://qiita.com/advent-calendar/2017/bot)の10日目の記事を書きます。
