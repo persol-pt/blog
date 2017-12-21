@@ -2,7 +2,7 @@
 title: "HealthKitアプリを作る（その１）"
 date: 2017-12-18T18:39:59+09:00
 tags: ["iOS", "Swift", "HealthKit"]
-categories: ["n.yamamoto"]
+categories: ["N.Yamamoto"]
 draft: true
 ---
 
