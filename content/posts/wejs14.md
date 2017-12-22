@@ -59,6 +59,10 @@ WeJS の他の方の資料はもっと魅力的ですので、ぜひご覧くだ
 
 <div style="max-width: 36rem">
 
+<script async class="speakerdeck-embed" data-id="9e6b081019ba4e50814552f01f5e5bff" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2YOdsPk2F4pYk6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/masakazufukami/jquery-state-20171221-we-arejavascripters14th" title="jquery? state管理? どっち使えばいいの？ 20171221 we are_javascripters@14th" target="_blank">jquery? state管理? どっち使えばいいの？ 20171221 we are_javascripters@14th</a> </strong> from <strong><a href="https://www.slideshare.net/masakazufukami" target="_blank">将一 深見</a></strong> </div>
+
 <script async class="speakerdeck-embed" data-id="6e984a0fcce54cd0839114d48a56fef6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 <script async class="speakerdeck-embed" data-id="88d9ae3b80374c9396e630cdd800cc65" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
