@@ -67,6 +67,10 @@ WeJS の他の方の資料はもっと魅力的ですので、ぜひご覧くだ
 
 </div>
 
+こちらの WeJS まとめ記事もおすすめです！
+
+[We Are JavaScripters!@14th まとめ](http://jumpei-ikegami.hatenablog.com/entry/2017/12/21/213919)
+
 <br>
 
 以上、徹底気に他人のふんどしを履きまくる男、山本がお送りしました。
