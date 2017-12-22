@@ -35,7 +35,7 @@ GAE StandardはGoogleが用意した専用コンテナで動作します。使�
 * メインクラス
 
 warで実行するためにSpringBootServletInitializerクラスを継承し、configureメソッドをオーバーライドします。<br/>
-```kotlin
+```java
 @SpringBootApplication
 class Application : SpringBootServletInitializer() {
     @Bean
@@ -151,7 +151,7 @@ GAE FlexibleはGAEを名乗ってはいますが実質GCEです。Dockerコン�
 
 * メインクラス
 
-```kotlin
+```Java
 package sample
 
 import com.google.cloud.datastore.Datastore
@@ -279,7 +279,7 @@ EndPointsは下記の組み合わせで利用できます。<br/>
 
 APIに付けたアノテーションにEndpointsの定義を指定します。このアノテーションからAPIドキュメントやクライアントライブラリを生成できます。
 
-```kotlin
+```Java
 @Api(
   name = "sample",
   version = "v1",
