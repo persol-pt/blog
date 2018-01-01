@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/buildpack-deps:jessie
+    steps:
+      - checkout
+      - run: curl -L https://github.com/gohugoio/hugo/releases/download/v0.32/hugo_0.32_Linux-64bit.deb -o /tmp/hugo.deb
+      - run: sudo dpkg -i /tmp/hugo.deb
+      - run: ./deploy.sh "Update"
