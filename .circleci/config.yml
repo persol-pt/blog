@@ -3,8 +3,43 @@ jobs:
   build:
     docker:
       - image: circleci/buildpack-deps:jessie
+    working_directory: ~/blog
     steps:
       - checkout
-      - run: curl -L https://github.com/gohugoio/hugo/releases/download/v0.32/hugo_0.32_Linux-64bit.deb -o /tmp/hugo.deb
-      - run: sudo dpkg -i /tmp/hugo.deb
-      - run: ./deploy.sh "Update"
+      - run:
+          name: Configure Repo
+          command: |
+            git config --global user.email circleci@persol.co.jp
+            git config --global user.name CircleCI
+            git submodule sync
+            git submodule update --init
+            cd public
+            git checkout master
+      - run:
+          name: Install Hugo
+          command: |
+            curl -L https://github.com/gohugoio/hugo/releases/download/v0.32/hugo_0.32_Linux-64bit.deb -o /tmp/hugo.deb
+            sudo dpkg -i /tmp/hugo.deb
+      - run:
+          name: Build and Deploy
+          command: |
+            hugo
+            set +e
+            cd public
+            git add .
+            git commit -m "Update"
+            git push origin master
+            cd ..
+            git add .
+            git commit -m "Update public"
+            git push origin $CIRCLE_BRANCH
+            set -e
+
+workflows:
+  version: 2
+  build-n-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
