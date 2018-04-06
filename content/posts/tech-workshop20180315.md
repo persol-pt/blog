@@ -87,7 +87,7 @@ Kubernetesのアーキテクチャには、<br>
 　　Podの展開を制御。<br><br>
 * Controller<br>
 　　クラスタ内のタスクを処理するバックグラウンド<br><br>
-* ercd<br>
+* etcd<br>
 　　クラスタデータの保存<br>
 
 <br><br>
