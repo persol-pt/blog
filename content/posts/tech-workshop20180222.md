@@ -1,5 +1,5 @@
 ---
-title: "てくてく勉強会2月22日"
+title: "勉強会[ReactとRedux]"
 date: 2018-03-08T11:40:24+09:00
 tags: ["勉強会","会社紹介","React","Redux"]
 categories: ["藤井 大祐(daitasu)"]

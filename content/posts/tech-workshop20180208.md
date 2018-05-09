@@ -1,5 +1,5 @@
 ---
-title: "てくてく勉強会2月8日"
+title: "勉強会[GraphQL入門]"
 date: 2018-02-10T11:37:32+09:00
 tags: ["勉強会","会社紹介","GraphQL","クエリ言語"]
 categories: ["藤井 大祐(daitasu)"]
