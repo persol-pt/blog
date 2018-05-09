@@ -1,5 +1,5 @@
 ---
-title: "てくてく勉強会12月6日"
+title: "勉強会[フロントエンドにおけるIaCとCI]"
 date: 2017-12-08T18:48:09+09:00
 tags: ["勉強会", "もくもく会","会社紹介","IaC","CI","OpenAPI"]
 categories: ["藤井 大祐(daitasu)"]

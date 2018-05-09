@@ -1,5 +1,5 @@
 ---
-title: "てくてく勉強会12月22日"
+title: "勉強会[http request multiplexerと文字列マッチング]"
 date: 2017-12-29T23:58:18+09:00
 tags: ["勉強会", "もくもく会","会社紹介","Go","httpルーティング"]
 categories: ["藤井 大祐(daitasu)"]
