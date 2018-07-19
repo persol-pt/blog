@@ -1,9 +1,10 @@
 ---
 title: "勉強会[nissy's handy tools]"
 date: 2018-07-13T18:30:57+09:00
-tags: ["勉強会","会社紹介","nissy", "Go", "tail"]
+tags: ["勉強会","会社紹介","nissy", "Go"]
 categories: ["里井 嘉真(yoshi-sato)"]
 ---
+
 
 <br>
 
